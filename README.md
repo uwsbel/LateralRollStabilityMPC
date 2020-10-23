@@ -1,1 +1,1 @@
-Code supporting de-coupled MPC lateral and PID longitudinal control.
+Code supporting coupled MPC lateral and PID longitudinal control.
