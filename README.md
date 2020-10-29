@@ -1,1 +1,1 @@
-Code supporting coupled MPC lateral and PID longitudinal control.
+Code supporting MPC-based lateral and roll stability control for minimum-time autonomous driving.
