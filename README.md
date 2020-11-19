@@ -1,7 +1,7 @@
 # Coupled Lateral and Longitudinal MPC for Lateral Stability and Rollover Prevention
 This repository contains the code used in the following paper submitted for publication: "COUPLED LATERAL AND LONGITUDINAL CONTROL FOR TRAJECTORY TRACKING, LATERAL STABILITY, AND ROLLOVER PREVENTION USING MINIMUM-TIME PREDICTIVE CONTROL IN AUTOMATED DRIVING". 
 
-Folder descriptions are as follows:
+Directory descriptions are as follows:
 
 1. **src**
 
@@ -31,8 +31,18 @@ Code to reproduce plots showing resulting stability margins and bounded outputs 
 git clone https://github.com/uwsbel/LateralRollStabilityMPC.git
 ```
 2. Open MATLAB and navigate to the repository to run files
-- Note that you may have to set your MATLAB working directory to the parent folder of a file you wish to run.
+- Note that you may have to set your MATLAB working directory to the parent directory of a file you wish to run.
 
 ## Quick Start
 Use the following steps to reproduce the plots generated in the paper.
-1. 
+#### Model Verification
+1. In MATLAB, navigate to the `plots_5.1_verification` directory. 
+2. Run `plot_veh_verification.m`. The file will automatically load required data and produce the verification plots (Figure 6).
+
+#### Controller Tracking Performance
+1. In MATLAB, navigate to the `plots_5.2~5.4.1_tracking` directory. 
+2. Run `plot_path_tracking.m`. The file will automatically load required data and produce the reference trajectory and curvature (Figure 7), minimum-time speed profile (Figure 8), trajectory tracking results (Figure 10), and control inputs for steering and driving torque (Figure 11).
+
+#### Stability and Output Results
+1. In MATLAB, navigate to the `plots_5.4.2_stability` directory. 
+2. Run `plot_stability.m`. The file will automatically load required data and produce the plots demonstrating stability and bounded output (Figure 12).
