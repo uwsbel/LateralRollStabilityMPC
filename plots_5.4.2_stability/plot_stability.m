@@ -1,27 +1,8 @@
-figure;
-plot(s,beta,'b','LineWidth',0.5);%
-hold on;
-grid;
-xlabel('Distance Along Path s (m)','FontName','Palatino Linotype','FontSize',8);
-ylabel('Vehicle sideslip angle (rad)','FontName','Palatino Linotype','FontSize',8);
-beta_upper=atan(0.02*mu*g);
-for i=1:length(beta)
-beta_max(i)=beta_upper;
-beta_min(i)=-beta_upper;
-end
-hold on;
-hx3=plot(s,beta_max,'r','LineWidth',0.8);
-hold on;
-hx4=plot(s,beta_min,'r','LineWidth',0.8);
-set(hx4,'handlevisibility','off');
-axis([0,260,-0.2,0.2]);
-legend('The plant output',' Sideslip angle boundery','location','best');
-set(gca,'FontName','Palatino Linotype','FontSize',8);
-text(0.03,0.96,'(c)','Units','normalized','FontName','Palatino Linotype','FontSize',8)
-set(gcf,'unit','centimeters','position',[10 5 7.34 5.5]);
+% Load Saved Data
+load("plots_5.4.2_stability/results_confirm_soft.mat");
 
-
-figure;
+% Display Figures
+figure(1);
 plot(ydot,wz1,'o-b','LineWidth',0.5,'MarkerSize',2.5,'MarkerFaceColor','w');%
 % set(gcf,'unit','centimeters','position',[10 5 7.34 5.5]);
 hold on;
@@ -72,27 +53,13 @@ hx1=plot(ydot_left,y_psi,'r','LineWidth',0.8);
 hold on;
 hx2=plot(ydot_right,y_psi,'r','LineWidth',0.8);
 set(hx2,'handlevisibility','off');
-legend('The plot output','Yaw stability envelope','location','best');
-set(gca,'FontName','Palatino Linotype','FontSize',8);
+legend('The plot output','Yaw stability envelope','location','northeast');
+set(gca,'FontSize',8);
 text(0.03,0.96,'(a)','Units','normalized','FontName','Palatino Linotype','FontSize',8)
 set(gcf,'unit','centimeters','position',[10 5 7.34 5.5]);
+title("Lateral Stability Phase Plane");
 
-figure;
-plot(s,wz1,'b','LineWidth',0.5);
-hold on;
-grid;
-xlabel('Distance Along Path s (m)','FontName','Palatino Linotype','FontSize',8);
-ylabel('Yaw rate (rad/s)','FontName','Palatino Linotype','FontSize',8);
-axis([0,260,-1.5,1.5]);
-hw1=plot(s,[yawrate_up(1),yawrate_up],'r','LineWidth',0.8);%
-hw2=plot(s,[yawrate_low(1),yawrate_low],'r','LineWidth',0.8);%
-set(hw2,'handlevisibility','off');
-legend('The plant output',' Yaw rate boundery','location','best');
-set(gca,'FontName','Palatino Linotype','FontSize',8);
-text(0.03,0.96,'(d)','Units','normalized','FontName','Palatino Linotype','FontSize',8)
-set(gcf,'unit','centimeters','position',[10 5 7.34 5.5]);
-
-figure;
+figure(2);
 plot(s,phi1,'b','LineWidth',0.5);%
 hold on;
 grid;
@@ -103,12 +70,52 @@ h1=plot(s,[roll_up(1),roll_up],'r','LineWidth',0.8);%
 % set(h1,'handlevisibility','off');
 h2=plot(s,[roll_low(1),roll_low],'r','LineWidth',0.8);%
 set(h2,'handlevisibility','off');
-legend('The plant output',' Roll angle boundery','location','best');
-set(gca,'FontName','Palatino Linotype','FontSize',8);
+legend('The plant output',' Roll angle boundery','location','northeast');
+set(gca,'FontSize',8);
 text(0.03,0.96,'(b)','Units','normalized','FontName','Palatino Linotype','FontSize',8)
 set(gcf,'unit','centimeters','position',[10 5 7.34 5.5]);
+title("Roll Angle Along Path");
 
-figure;
+figure(3);
+plot(s,beta,'b','LineWidth',0.5);%
+hold on;
+grid;
+xlabel('Distance Along Path s (m)','FontName','Palatino Linotype','FontSize',8);
+ylabel('Vehicle sideslip angle (rad)','FontName','Palatino Linotype','FontSize',8);
+beta_upper=atan(0.02*mu*g);
+for i=1:length(beta)
+beta_max(i)=beta_upper;
+beta_min(i)=-beta_upper;
+end
+hold on;
+hx3=plot(s,beta_max,'r','LineWidth',0.8);
+hold on;
+hx4=plot(s,beta_min,'r','LineWidth',0.8);
+set(hx4,'handlevisibility','off');
+axis([0,260,-0.2,0.2]);
+legend('The plant output',' Sideslip angle boundery','location','northeast');
+set(gca,'FontSize',8);
+text(0.03,0.96,'(c)','Units','normalized','FontName','Palatino Linotype','FontSize',8)
+set(gcf,'unit','centimeters','position',[10 5 7.34 5.5]);
+title("Sideslip Angle Along Path");
+
+figure(4);
+plot(s,wz1,'b','LineWidth',0.5);
+hold on;
+grid;
+xlabel('Distance Along Path s (m)','FontName','Palatino Linotype','FontSize',8);
+ylabel('Yaw rate (rad/s)','FontName','Palatino Linotype','FontSize',8);
+axis([0,260,-1.5,1.5]);
+hw1=plot(s,[yawrate_up(1),yawrate_up],'r','LineWidth',0.8);%
+hw2=plot(s,[yawrate_low(1),yawrate_low],'r','LineWidth',0.8);%
+set(hw2,'handlevisibility','off');
+legend('The plant output',' Yaw rate boundery','location','northeast');
+set(gca,'FontSize',8);
+text(0.03,0.96,'(d)','Units','normalized','FontName','Palatino Linotype','FontSize',8)
+set(gcf,'unit','centimeters','position',[10 5 7.34 5.5]);
+title("Yaw Rate Along Path");
+
+figure(5);
 plot(s,[LTR_ratio(1),LTR_ratio],'b','LineWidth',0.5);%
 hold on;
 grid;
@@ -119,7 +126,8 @@ hm1=plot(s,ones(1,length(s)),'r','LineWidth',0.8);%
 % set(h1,'handlevisibility','off');
 hm2=plot(s,-ones(1,length(s)),'r','LineWidth',0.8);%
 set(hm2,'handlevisibility','off');
-legend('The plant output LTR','LTR boundery','location','best');
-set(gca,'FontName','Palatino Linotype','FontSize',8);
+legend('The plant output LTR','LTR boundery','location','northeast');
+set(gca,'FontSize',8);
 text(0.03,0.96,'(e)','Units','normalized','FontName','Palatino Linotype','FontSize',8)
 set(gcf,'unit','centimeters','position',[10 5 7.34 5.5]);
+title("Lateral Load Transfer Ratio Along Path");

@@ -1,5 +1,5 @@
 %caseB: for the general trajectory, given the curvature, design a minimum-time speed profile along the path, implement the MPC 
-% with constraints and X Y Psi as objectives and PID speed control
+% with constraints and X Y Psi as objectives with PID speed control
 clc;
 clear;
 %% parameters definition
