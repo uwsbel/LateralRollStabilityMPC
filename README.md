@@ -43,10 +43,10 @@ Use the following steps to reproduce the plots generated in the paper.
 
 *Figure 6 (a,b,c,d)*
 <p align="left">
-  <img src="https://github.com/projectchrono/chrono-web-assets/blob/master/Images/LatLonMPC_Shuping/fig_6a.png" alt="figure 6a" width="185">  
-  <img src="https://github.com/projectchrono/chrono-web-assets/blob/master/Images/LatLonMPC_Shuping/fig_6b.png" alt="figure 6b" width="185"> 
-  <img src="https://github.com/projectchrono/chrono-web-assets/blob/master/Images/LatLonMPC_Shuping/fig_6c.png" alt="figure 6c" width="185"> 
-  <img src="https://github.com/projectchrono/chrono-web-assets/blob/master/Images/LatLonMPC_Shuping/fig_6d.png" alt="figure 6d" width="185">
+  <img src="https://github.com/projectchrono/chrono-web-assets/blob/master/Images/LatLonMPC_Shuping/fig_6a.png" alt="figure 6a" width="180">  
+  <img src="https://github.com/projectchrono/chrono-web-assets/blob/master/Images/LatLonMPC_Shuping/fig_6b.png" alt="figure 6b" width="180"> 
+  <img src="https://github.com/projectchrono/chrono-web-assets/blob/master/Images/LatLonMPC_Shuping/fig_6c.png" alt="figure 6c" width="180"> 
+  <img src="https://github.com/projectchrono/chrono-web-assets/blob/master/Images/LatLonMPC_Shuping/fig_6d.png" alt="figure 6d" width="180">
 </p>
 
 #### Controller Tracking Performance
@@ -55,27 +55,27 @@ Use the following steps to reproduce the plots generated in the paper.
 
 *Figure 7 (a,b)*
 <p align="left">
-  <img src="https://github.com/projectchrono/chrono-web-assets/blob/master/Images/LatLonMPC_Shuping/fig_7a.png" alt="figure 7a" width="185">  
-  <img src="https://github.com/projectchrono/chrono-web-assets/blob/master/Images/LatLonMPC_Shuping/fig_7b.png" alt="figure 7b" width="185"> 
+  <img src="https://github.com/projectchrono/chrono-web-assets/blob/master/Images/LatLonMPC_Shuping/fig_7a.png" alt="figure 7a" width="180">  
+  <img src="https://github.com/projectchrono/chrono-web-assets/blob/master/Images/LatLonMPC_Shuping/fig_7b.png" alt="figure 7b" width="180"> 
 </p>
 
 *Figure 8*
 <p align="left">
-  <img src="https://github.com/projectchrono/chrono-web-assets/blob/master/Images/LatLonMPC_Shuping/fig_8.png" alt="figure 8" width="185"> 
+  <img src="https://github.com/projectchrono/chrono-web-assets/blob/master/Images/LatLonMPC_Shuping/fig_8.png" alt="figure 8" width="180"> 
 </p>
 
 *Figure 10 (a,b,c,d)*
 <p align="left">
-  <img src="https://github.com/projectchrono/chrono-web-assets/blob/master/Images/LatLonMPC_Shuping/fig_10a.png" alt="figure 10a" width="185"> 
-  <img src="https://github.com/projectchrono/chrono-web-assets/blob/master/Images/LatLonMPC_Shuping/fig_10b.png" alt="figure 10b" width="185"> 
-  <img src="https://github.com/projectchrono/chrono-web-assets/blob/master/Images/LatLonMPC_Shuping/fig_10c.png" alt="figure 10c" width="185"> 
-  <img src="https://github.com/projectchrono/chrono-web-assets/blob/master/Images/LatLonMPC_Shuping/fig_10d.png" alt="figure 10d" width="185"> 
+  <img src="https://github.com/projectchrono/chrono-web-assets/blob/master/Images/LatLonMPC_Shuping/fig_10a.png" alt="figure 10a" width="180"> 
+  <img src="https://github.com/projectchrono/chrono-web-assets/blob/master/Images/LatLonMPC_Shuping/fig_10b.png" alt="figure 10b" width="180"> 
+  <img src="https://github.com/projectchrono/chrono-web-assets/blob/master/Images/LatLonMPC_Shuping/fig_10c.png" alt="figure 10c" width="180"> 
+  <img src="https://github.com/projectchrono/chrono-web-assets/blob/master/Images/LatLonMPC_Shuping/fig_10d.png" alt="figure 10d" width="180"> 
 </p>
 
 *Figure 11 (a,b)*
 <p align="left">
-  <img src="https://github.com/projectchrono/chrono-web-assets/blob/master/Images/LatLonMPC_Shuping/fig_11a.png" alt="figure 11a" width="185"> 
-  <img src="https://github.com/projectchrono/chrono-web-assets/blob/master/Images/LatLonMPC_Shuping/fig_11b.png" alt="figure 11b" width="185"> 
+  <img src="https://github.com/projectchrono/chrono-web-assets/blob/master/Images/LatLonMPC_Shuping/fig_11a.png" alt="figure 11a" width="180"> 
+  <img src="https://github.com/projectchrono/chrono-web-assets/blob/master/Images/LatLonMPC_Shuping/fig_11b.png" alt="figure 11b" width="180"> 
 </p>
 
 #### Stability and Output Results
@@ -84,11 +84,11 @@ Use the following steps to reproduce the plots generated in the paper.
 
 *Figure 12 (a,b,c,d,e)*
 <p align="left">
-  <img src="https://github.com/projectchrono/chrono-web-assets/blob/master/Images/LatLonMPC_Shuping/fig_12a.png" alt="figure 12a" width="185"> 
-  <img src="https://github.com/projectchrono/chrono-web-assets/blob/master/Images/LatLonMPC_Shuping/fig_12b.png" alt="figure 12b" width="185"> 
-  <img src="https://github.com/projectchrono/chrono-web-assets/blob/master/Images/LatLonMPC_Shuping/fig_12c.png" alt="figure 12c" width="185"> 
-  <img src="https://github.com/projectchrono/chrono-web-assets/blob/master/Images/LatLonMPC_Shuping/fig_12d.png" alt="figure 12d" width="185"> 
-  <img src="https://github.com/projectchrono/chrono-web-assets/blob/master/Images/LatLonMPC_Shuping/fig_12e.png" alt="figure 12e" width="185"> 
+  <img src="https://github.com/projectchrono/chrono-web-assets/blob/master/Images/LatLonMPC_Shuping/fig_12a.png" alt="figure 12a" width="180"> 
+  <img src="https://github.com/projectchrono/chrono-web-assets/blob/master/Images/LatLonMPC_Shuping/fig_12b.png" alt="figure 12b" width="180"> 
+  <img src="https://github.com/projectchrono/chrono-web-assets/blob/master/Images/LatLonMPC_Shuping/fig_12c.png" alt="figure 12c" width="180"> 
+  <img src="https://github.com/projectchrono/chrono-web-assets/blob/master/Images/LatLonMPC_Shuping/fig_12d.png" alt="figure 12d" width="180"> 
+  <img src="https://github.com/projectchrono/chrono-web-assets/blob/master/Images/LatLonMPC_Shuping/fig_12e.png" alt="figure 12e" width="180"> 
 </p>
 
 ## Additional Use
