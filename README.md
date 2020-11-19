@@ -4,20 +4,16 @@ This repository contains the code used in the following paper submitted for publ
 Directory descriptions are as follows:
 
 1. **src**
-
-MPC controller, vehicle models, reference trajectory, and other functions as described in the paper.
+- MPC controller, vehicle models, reference trajectory, and other functions as described in the paper.
 
 2. **plots_5.1_verification**
-
-Code to reproduce plots verifying model accuracy against Carsim for a step input (Section 5.1, Figure 6).
+- Code to reproduce plots verifying model accuracy against Carsim for a step input (Section 5.1, Figure 6).
 
 3. **plots_5.2~5.4.1_tracking**
-
-Code to reproduce plots demonstrating controller tracking ability for reference trajectory with continuously varying curvature (Sections 5.2-5.4.1, Figures 7, 8, 10, 11).
+- Code to reproduce plots demonstrating controller tracking ability for reference trajectory with continuously varying curvature (Sections 5.2-5.4.1, Figures 7, 8, 10, 11).
 
 4. **plots_5.4.2_stability**
-
-Code to reproduce plots showing resulting stability margins and bounded outputs (Section 5.4.2, Figure 12).
+- Code to reproduce plots showing resulting stability margins and bounded outputs (Section 5.4.2, Figure 12).
 
 ## Highlights
 - Ready-to-use MATLAB code
