@@ -89,3 +89,12 @@ Use the following steps to reproduce the plots generated in the paper.
   <img src="https://github.com/projectchrono/chrono-web-assets/blob/master/Images/LatLonMPC_Shuping/fig_12d.png" alt="figure 12d" width="185"> 
   <img src="https://github.com/projectchrono/chrono-web-assets/blob/master/Images/LatLonMPC_Shuping/fig_12e.png" alt="figure 12e" width="185"> 
 </p>
+
+## Additional Use
+Use the files in the `src` directory to experiment with the controller directly. A short description of each file is as follows:
+- `controller_8dofC14DOF_PID_6c_Ny3_soft.m` is the MPC controller that uses an 8-DOF model for predictions. Model parameters are configured as described in Table 1 of the paper. 
+- `cal_ay.m` is a function that calculates the 8-DOF model as referenced in Figure 1 of the paper.
+- `plant_14DOF_vehicle_4.m` is a function that calculates the  14-DOF model as referenced in Figure 2 of the paper.
+- `references1.m` is a function that generates the reference trajectory from a given set of path points.
+- `pathpoints_arc.xlsx` is a spreadsheet of path points used for generating the reference trajectory.
+
