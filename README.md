@@ -39,10 +39,52 @@ Use the following steps to reproduce the plots generated in the paper.
 1. In MATLAB, navigate to the `plots_5.1_verification` directory. 
 2. Run `plot_veh_verification.m`. The file will automatically load required data and produce the verification plots (Figure 6).
 
+*Figure 6 (a,b,c,d)*
+<p align="left">
+  <img src="https://github.com/projectchrono/chrono-web-assets/blob/master/Images/LatLonMPC_Shuping/fig_6a.png" alt="figure 6a" width="185">  
+  <img src="https://github.com/projectchrono/chrono-web-assets/blob/master/Images/LatLonMPC_Shuping/fig_6b.png" alt="figure 6b" width="185"> 
+  <img src="https://github.com/projectchrono/chrono-web-assets/blob/master/Images/LatLonMPC_Shuping/fig_6c.png" alt="figure 6c" width="185"> 
+  <img src="https://github.com/projectchrono/chrono-web-assets/blob/master/Images/LatLonMPC_Shuping/fig_6d.png" alt="figure 6d" width="185">
+</p>
+
 #### Controller Tracking Performance
 1. In MATLAB, navigate to the `plots_5.2~5.4.1_tracking` directory. 
 2. Run `plot_path_tracking.m`. The file will automatically load required data and produce the reference trajectory and curvature (Figure 7), minimum-time speed profile (Figure 8), trajectory tracking results (Figure 10), and control inputs for steering and driving torque (Figure 11).
 
+*Figure 7 (a,b)*
+<p align="left">
+  <img src="https://github.com/projectchrono/chrono-web-assets/blob/master/Images/LatLonMPC_Shuping/fig_7a.png" alt="figure 7a" width="185">  
+  <img src="https://github.com/projectchrono/chrono-web-assets/blob/master/Images/LatLonMPC_Shuping/fig_7b.png" alt="figure 7b" width="185"> 
+</p>
+
+*Figure 8*
+<p align="left">
+  <img src="https://github.com/projectchrono/chrono-web-assets/blob/master/Images/LatLonMPC_Shuping/fig_8.png" alt="figure 8" width="185"> 
+</p>
+
+*Figure 10 (a,b,c,d)*
+<p align="left">
+  <img src="https://github.com/projectchrono/chrono-web-assets/blob/master/Images/LatLonMPC_Shuping/fig_10a.png" alt="figure 10a" width="185"> 
+  <img src="https://github.com/projectchrono/chrono-web-assets/blob/master/Images/LatLonMPC_Shuping/fig_10b.png" alt="figure 10b" width="185"> 
+  <img src="https://github.com/projectchrono/chrono-web-assets/blob/master/Images/LatLonMPC_Shuping/fig_10c.png" alt="figure 10c" width="185"> 
+  <img src="https://github.com/projectchrono/chrono-web-assets/blob/master/Images/LatLonMPC_Shuping/fig_10d.png" alt="figure 10d" width="185"> 
+</p>
+
+*Figure 11 (a,b)*
+<p align="left">
+  <img src="https://github.com/projectchrono/chrono-web-assets/blob/master/Images/LatLonMPC_Shuping/fig_11a.png" alt="figure 11a" width="185"> 
+  <img src="https://github.com/projectchrono/chrono-web-assets/blob/master/Images/LatLonMPC_Shuping/fig_11b.png" alt="figure 11b" width="185"> 
+</p>
+
 #### Stability and Output Results
 1. In MATLAB, navigate to the `plots_5.4.2_stability` directory. 
 2. Run `plot_stability.m`. The file will automatically load required data and produce the plots demonstrating stability and bounded output (Figure 12).
+
+*Figure 12 (a,b,c,d,e)*
+<p align="left">
+  <img src="https://github.com/projectchrono/chrono-web-assets/blob/master/Images/LatLonMPC_Shuping/fig_12a.png" alt="figure 12a" width="185"> 
+  <img src="https://github.com/projectchrono/chrono-web-assets/blob/master/Images/LatLonMPC_Shuping/fig_12b.png" alt="figure 12b" width="185"> 
+  <img src="https://github.com/projectchrono/chrono-web-assets/blob/master/Images/LatLonMPC_Shuping/fig_12c.png" alt="figure 12c" width="185"> 
+  <img src="https://github.com/projectchrono/chrono-web-assets/blob/master/Images/LatLonMPC_Shuping/fig_12d.png" alt="figure 12d" width="185"> 
+  <img src="https://github.com/projectchrono/chrono-web-assets/blob/master/Images/LatLonMPC_Shuping/fig_12e.png" alt="figure 12e" width="185"> 
+</p>
