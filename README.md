@@ -27,15 +27,16 @@ Directory descriptions are as follows:
 - Reproducible Figures
 
 ## Installation
-1. Clone this repository
+1. Clone this repository.
 ```
 git clone https://github.com/uwsbel/LateralRollStabilityMPC.git
 ```
-2. Open MATLAB and navigate to the repository to run files
+2. Open MATLAB and navigate to the repository to run files.
 - Note that you may have to set your MATLAB working directory to the parent directory of a file you wish to run.
 
 ## Quick Start
 Use the following steps to reproduce the plots generated in the paper.
+
 #### Model Verification
 1. In MATLAB, navigate to the `plots_5.1_verification` directory. 
 2. Run `plot_veh_verification.m`. The file will automatically load required data and produce the verification plots (Figure 6).
