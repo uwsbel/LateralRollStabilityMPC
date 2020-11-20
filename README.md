@@ -93,9 +93,9 @@ Use the following steps to reproduce the plots generated in the paper.
 
 ## Additional Use
 Use the files in the `src` directory to experiment with the controller directly. A short description of each file is as follows:
-- `controller_8dofC14DOF_PID_6c_Ny3_soft.m` is the MPC controller that uses an 8-DOF model for predictions. Model parameters are configured as described in Table 1 of the paper. 
-- `cal_ay.m` is a function that calculates the 8-DOF model as referenced in Figure 1 of the paper.
+- `controller_8dofC14DOF_PID_6c_Ny3_soft.m` is the MPC controller that uses an 8-DOF model for predictions. Model parameters are configured as described in Table 1 of the paper. Run this file to use the controller. Note that it can take up to ~30min on "modern" laptops (ex. 25min on Thinkpad T460s  Intel(R) Core(TM) i5-6200U)
 - `plant_14DOF_vehicle_4.m` is a function that calculates the  14-DOF model as referenced in Figure 2 of the paper.
-- `references1.m` is a function that generates the reference trajectory from a given set of path points.
 - `pathpoints_arc.xlsx` is a spreadsheet of path points used for generating the reference trajectory.
-
+- `references1.m` is a function that generates the reference trajectory from a given set of path points.
+- `cal_ay.m` is a function that is used by `references1.m` to calculate longitudinal velocity along the reference trajectory using an 8-DOF model as referenced in Figure 1 of the paper.
+- Plotting functions are included to display the results (`plot_veh_validation.m`, `plot_path_tracking.m`, `plot_veh_validation.m`).
