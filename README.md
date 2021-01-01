@@ -1,6 +1,6 @@
 # Coupled Lateral and Longitudinal MPC for Lateral Stability and Rollover Prevention
-This repository contains the code used in the following paper submitted for publication: 
-- "COUPLED LATERAL AND LONGITUDINAL CONTROL FOR TRAJECTORY TRACKING, LATERAL STABILITY, AND ROLLOVER PREVENTION USING MINIMUM-TIME PREDICTIVE CONTROL IN AUTOMATED DRIVING"
+This repository contains the code used in the following manuscript currently under review: 
+- Chen, S.; Chen, H.; Pletta, A.; Negrut, D. Coupled Lateral and Longitudinal Control for Trajectory Tracking, Lateral Stability, and Rollover Prevention using Minimum-Time Predictive Control in Automated Driving, *ASME Journal of Dynamic Systems, Measurement, and Control*, submitted October, 2020.
 
 Directory descriptions are as follows:
 
